@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -10,56 +10,81 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Career & Education History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="August 2023 - May 2025"
+            iconStyle={{ background: '#009688', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Masters of Science in Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">Purdue University</h4>
+            <h4 className="vertical-timeline-element-subtitle">Fort Wayne, IN</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              <b>Notable Coursework:</b> Deep Learning, Operating Systems, Data Analytics in Business, Software Engineering, Software Project Management
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="May 2024 - August ¸2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Junior Data Scientist</h3>
+            <h4 className="vertical-timeline-element-subtitle">Laboratory of Data Science, Purdue University</h4>
+            <h4 className="vertical-timeline-element-subtitle">Fort Wayne, IN</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Worked on a Digital Twins research project, designing virtual models that mirrored real-world systems for analysis and simulation.<br></br>
+              Explored how to integrate AI models into digital twin architectures — especially for predicting system states and anomalies.<br></br>
+              Presented findings through dashboards and internal talks, focusing on making the concept of digital twins actually understandable to non-engineers.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="September 2022 - July 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Senior Full Stack Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Accenture Solutions</h4>
+            <h4 className="vertical-timeline-element-subtitle">Mumbai, MH, India</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Led the development of enterprise-level applications using Angular and .NET, enhancing maintainability and reducing legacy code dependencies by 30%.<br></br>
+              Streamlined client workflows through Excel macro automation, reducing manual reporting time by 25%.<br></br>
+              Implemented agile best practices and led sprint planning sessions, improving team velocity and delivery confidence.<br></br>
+              Became the unofficial mentor for junior devs - reviewed code, answered questions, and helped them level up.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="January 2021 - August 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Accenture Solutions</h4>
+            <h4 className="vertical-timeline-element-subtitle">Mumbai, MH, India</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Developed scalable internal tools using React, HTML/CSS, and .NET APIs for real-time data operations.<br></br>
+              Evaluated and introduced Low-Code/No-Code tools (Mendix), resulting in a 30% reduction in development time for rapid prototypes.<br></br>
+              Automated deployment workflows with GitHub Actions and Docker, reducing release overhead.<br></br>
+              Collaborated cross-functionally with QA and Business Analysts to ensure UAT readiness and CI/CD integration.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="June 2016 - August 2020"
+            iconStyle={{ background: '#009688', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          >
+            <h3 className="vertical-timeline-element-title">Bachelors of Engineering in Information Technology</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Mumbai</h4>
+            <h4 className="vertical-timeline-element-subtitle">Mumbai, MH, India</h4>
+            <p>
+               <b>Notable Coursework:</b> Object Oriented Programming, JAVA, C, Python Programming, Database Management, Data Structures & Algorithms, Web Development, Software Quality & Reliability, Computer Science Fundamentals, Cloud Computing
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
