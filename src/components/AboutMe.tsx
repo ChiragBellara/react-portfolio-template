@@ -4,10 +4,8 @@ import '../assets/styles/AbouteMe.scss';
 
 const AboutMe = () => {
   return (
-      <div className="container" id="aboutme">
-        <div className="aboutme-container">
+        <div className="aboutme-container" id="aboutme">
           <h1>About Me</h1>
-          <div>
             <p>
               Hey there! I’m <strong>Chirag Bellara</strong> — developer, machine-learning nerd, and part-time philosopher on fairness in AI.
             </p>
@@ -23,9 +21,7 @@ const AboutMe = () => {
             <p>
               I’m always up for a chat — whether it’s about <strong>LLMs</strong>, <strong>frontend frameworks</strong>, <strong>why TypeScript is amazing and annoying</strong>, or which anime deserves a second season.
             </p>
-          </div>
         </div>
-      </div>
   );
 };
 
