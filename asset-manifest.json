@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/chiragbellara.github.io/static/css/main.3ee063f5.css",
-    "main.js": "/chiragbellara.github.io/static/js/main.8f1d0aa2.js",
-    "static/js/453.4191d7cc.chunk.js": "/chiragbellara.github.io/static/js/453.4191d7cc.chunk.js",
-    "static/media/project_4.png": "/chiragbellara.github.io/static/media/project_4.8474ba25c543b9d99a8e.png",
-    "static/media/project_1.png": "/chiragbellara.github.io/static/media/project_1.43e3b0f2818c3e0bf6d9.png",
-    "static/media/project_5.png": "/chiragbellara.github.io/static/media/project_5.094b68e74c6e0a9083ec.png",
-    "static/media/project_2.png": "/chiragbellara.github.io/static/media/project_2.19c203a1de73b27f2bc5.png",
-    "static/media/project_6.png": "/chiragbellara.github.io/static/media/project_6.5698112944d862859e25.png",
-    "static/media/bg-light.png": "/chiragbellara.github.io/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/chiragbellara.github.io/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/project_3.png": "/chiragbellara.github.io/static/media/project_3.d03755accd965a57c106.png",
-    "index.html": "/chiragbellara.github.io/index.html",
-    "main.3ee063f5.css.map": "/chiragbellara.github.io/static/css/main.3ee063f5.css.map",
-    "main.8f1d0aa2.js.map": "/chiragbellara.github.io/static/js/main.8f1d0aa2.js.map",
-    "453.4191d7cc.chunk.js.map": "/chiragbellara.github.io/static/js/453.4191d7cc.chunk.js.map"
+    "main.css": "/static/css/main.80d5499d.css",
+    "main.js": "/static/js/main.9556f87d.js",
+    "static/js/453.4191d7cc.chunk.js": "/static/js/453.4191d7cc.chunk.js",
+    "static/media/project_4.png": "/static/media/project_4.8474ba25c543b9d99a8e.png",
+    "static/media/project_1.png": "/static/media/project_1.43e3b0f2818c3e0bf6d9.png",
+    "static/media/project_5.png": "/static/media/project_5.094b68e74c6e0a9083ec.png",
+    "static/media/project_2.png": "/static/media/project_2.19c203a1de73b27f2bc5.png",
+    "static/media/project_6.png": "/static/media/project_6.5698112944d862859e25.png",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/project_3.png": "/static/media/project_3.d03755accd965a57c106.png",
+    "index.html": "/index.html",
+    "main.80d5499d.css.map": "/static/css/main.80d5499d.css.map",
+    "main.9556f87d.js.map": "/static/js/main.9556f87d.js.map",
+    "453.4191d7cc.chunk.js.map": "/static/js/453.4191d7cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee063f5.css",
-    "static/js/main.8f1d0aa2.js"
+    "static/css/main.80d5499d.css",
+    "static/js/main.9556f87d.js"
   ]
 }
